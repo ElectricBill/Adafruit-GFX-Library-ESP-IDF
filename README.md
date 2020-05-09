@@ -1,3 +1,14 @@
+## About this fork
+
+I'm attempting to port GxEPD epaper displays library for the ESP-IDF framework. 
+As I want to load GFX as a git submodule I decided to fork it and modifying using this files:
+
+https://github.com/nkolban/esp32-snippets/tree/master/hardware/displays
+
+This is just an experiment. Do not use it for production!
+
+Martin - Fasani.de
+
 # Adafruit GFX Library ![Build Status](https://github.com/adafruit/Adafruit-GFX-Library/workflows/Arduino%20Library%20CI/badge.svg)
 
 This is the core graphics library for all our displays, providing a common set of graphics primitives (points, lines, circles, etc.). It needs to be paired with a hardware-specific library for each display device we carry (to handle the lower-level functions).
