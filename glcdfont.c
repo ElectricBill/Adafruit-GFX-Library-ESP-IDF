@@ -14,8 +14,8 @@
 #endif
 
 // Standard ASCII 5x7 font
-
-static const unsigned char font[] PROGMEM = {
+// IDF: glcdfont.c:18:28: error: 'font' defined but not used -> complained since was defined as: static const
+unsigned char font[] PROGMEM = {
 	0x00, 0x00, 0x00, 0x00, 0x00,
 	0x3E, 0x5B, 0x4F, 0x5B, 0x3E,
 	0x3E, 0x6B, 0x4F, 0x6B, 0x3E,
